@@ -28,6 +28,9 @@ password=<password>
 
 Note: URL should navigate directly to shop the products page otherwise the script won't proceed further.
 
+## Add product screenshot
+
+![AddProduct screenshot](./src/img/addproduct.png)
 
 
 
