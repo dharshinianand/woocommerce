@@ -22,16 +22,16 @@ JAVA_HOME=C:\Program Files\Java\jdk-17.0.2
 
 ## Open complete package in eclipse IDE
 
-> Clone the git repo
+> Clone git repo
 
-> Import as a project from Local file
+> From Eclipse IDE Import project 
 
+# creation of products 
 
-## Update config.properties
+### Update config.properties
 Change admin url, login name & password in config.properties available in **src\test\resources** folder
 
-**To run the automation script to creation of products**
-make sure to change url in config.properties
+Before running change url in config.properties
 
 url=**url name**
 
@@ -39,15 +39,25 @@ username=**login name**
 
 password=**password**
 
-- 
+### Run TestNG script
 
-- After products are created change to shop url in config.properties as : http://127.0.0.1/wordpress/shop
+Navigate to AddProduct.java file under productcreation package 
+
+Right click --> Run As --> TestNG Test
+
+**For reference screenshot:**
+
+![AddProduct screenshot](./src/img/addproduct.png)
+
+# checkout the products
+
+Once the product is created change the url in config.properties to shop Ex : http://127.0.0.1/wordpress/shop
 
 Note: URL should navigate directly to shop the products page otherwise the script won't proceed further.
 
-## Add product screenshot
 
-![AddProduct screenshot](./src/img/addproduct.png)
+
+
 
 
 
