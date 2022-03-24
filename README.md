@@ -20,6 +20,12 @@ Download Eclipse [_link_](https://www.eclipse.org/downloads/) and install.
 #### Example:
 JAVA_HOME=C:\Program Files\Java\jdk-17.0.2
 
+### Setting Environment:
+- Install XAMPP  
+- Install WordPress
+- Install WooCommerce
+
+
 ## Open complete package in eclipse IDE
 
 > Clone git repo
@@ -43,7 +49,7 @@ password=**password**
 
 Navigate to AddProduct.java file under productcreation package 
 
-Right click --> Run As --> TestNG Test
+Right click --> Run As --> TestNG Test (or) Rull All
 
 **For reference screenshot:**
 
@@ -51,7 +57,13 @@ Right click --> Run As --> TestNG Test
 
 # checkout the products
 
-Once the product is created change the url in config.properties to shop Ex : http://127.0.0.1/wordpress/shop
+Once the product is created.
+
+Change the url in config.properties to shop Ex : http://127.0.0.1/wordpress/shop
+
+Navigate to LoadCart.java file under AddToCart package 
+
+Right click --> Run As --> TestNG Test (or) Run All 
 
 Note: URL should navigate directly to shop the products page otherwise the script won't proceed further.
 
