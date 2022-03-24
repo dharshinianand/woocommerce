@@ -55,6 +55,15 @@ Once the product is created change the url in config.properties to shop Ex : htt
 
 Note: URL should navigate directly to shop the products page otherwise the script won't proceed further.
 
+**For reference screenshot:**
+
+![OrderDetails screenshot](./src/img/orderdetail.png)
+
+![OrderRecived screenshot](./src/img/orderrecived.png)
+
+
+
+
 
 
 
