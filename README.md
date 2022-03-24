@@ -47,7 +47,7 @@ Right click --> Run As --> TestNG Test
 
 **For reference screenshot:**
 
-![AddProduct screenshot](./src/img/addproduct1.png)
+![AddProduct screenshot](./src/img/addproduct.png)
 
 # checkout the products
 
