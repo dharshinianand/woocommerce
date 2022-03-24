@@ -1,4 +1,4 @@
-# woocommerce
+# WooCommerce
 
 Project to demonstate the web automation using Selenium, TestNG and Java
 
@@ -32,7 +32,7 @@ JAVA_HOME=C:\Program Files\Java\jdk-17.0.2
 
 > From Eclipse IDE Import project 
 
-# creation of products 
+# Creation of products 
 
 ### Update config.properties
 Change admin url, login name & password in config.properties available in **src\test\resources** folder
@@ -55,7 +55,7 @@ Right click --> Run As --> TestNG Test (or) Rull All
 
 ![AddProduct screenshot](./src/img/addproduct.png)
 
-# checkout the products
+# Checkout the products
 
 Once the product is created.
 
